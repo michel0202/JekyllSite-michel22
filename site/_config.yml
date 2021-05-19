@@ -8,7 +8,11 @@ language: 'en-us'
 
 # Website info
 name: 'Michel Von Loh'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+description: "Original guitar compositions and arrangements,
+::interdisciplinary project development,
+::performance and instruction.
+::Off the beaten path rather than on it.
+::Reinvention over reiteration."
 
 short_url: ''
 google_analytics:
