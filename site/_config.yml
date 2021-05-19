@@ -9,10 +9,10 @@ language: 'en-us'
 # Website info
 name: 'Michel Von Loh'
 description: "Original guitar compositions and arrangements,
-::interdisciplinary project development,
-::performance and instruction.
-::Off the beaten path rather than on it.
-::Reinvention over reiteration."
+<br> interdisciplinary project development,
+<br> performance and instruction.
+<br> Off the beaten path rather than on it.
+<br> Reinvention over reiteration."
 
 short_url: ''
 google_analytics:
