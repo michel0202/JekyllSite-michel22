@@ -1,0 +1,25 @@
+header.main-header {
+  background-attachment: fixed;
+}
+
+header.main-header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .33;
+}
+
+.main-header .inner {
+  text-shadow: 0 2px 4px black;
+}
+
+.blog-logo img {
+  height: 192px;
+  padding: 0;
+  filter: invert(100%);
+  transform: translateY(-50%);
+}
+
+a.scroll-down { display: none }

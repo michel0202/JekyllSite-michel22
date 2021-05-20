@@ -12,9 +12,7 @@ current: home
 
 <!-- The big featured header  -->
 <header class="main-header {% if page.cover %}"
-color: #880A01
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}"
-        background-attachment: fixed>
+        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
         {% if page.navigation %}
@@ -34,6 +32,8 @@ color: #880A01
 <main id="content" class="content" role="main">
 
     <!-- The tag below includes the post loop - partials/loop.hbs -->
-    {% include loop.html %}
+    {% comment %}
+      {% include loop.html %}
+    {% endcomment %}
 
 </main>
