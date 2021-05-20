@@ -2,7 +2,10 @@
 layout: page
 title: About
 navigation: true
-logo: 'assets/images/CIA_20190301_13250.JPG'
+logo:
+  src: 'assets/images/71932e7694894215a9b1f6514063e86e.png'
+  invert: true
+cover: 'assets/images/CIA_20190301_13250.JPG'
 current: about
 ---
 

@@ -2,7 +2,7 @@ header.main-header {
   background-attachment: fixed;
 }
 
-header.main-header::before {
+header.main-header:not(.post-head)::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -18,8 +18,9 @@ header.main-header::before {
 .blog-logo img {
   height: 192px;
   padding: 0;
-  filter: invert(100%);
   transform: translateY(-50%);
 }
+
+img.invert { filter: invert(100%); }
 
 a.scroll-down { display: none }
