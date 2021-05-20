@@ -2,7 +2,7 @@
 layout: page
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/CIA_20190301_13250.JPG'
 current: about
 ---
 
